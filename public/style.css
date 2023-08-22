@@ -1,0 +1,124 @@
+
+  .fullbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .containerr {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+ 
+  
+  
+  
+  .containerrr {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    padding: 20px;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .about-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .values h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .values li span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .values li:last-child {
+    margin-bottom: 0;
+  }
+  
